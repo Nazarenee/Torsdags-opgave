@@ -1,7 +1,7 @@
 //opgave 3.a//
 int a = 1;
 int b = 9;
-if (a == 10 || b ==10 || a + b > 10){
+if (a == 10 || b ==10 || a + b == 10){
   println("succes!"); 
 } else { 
     println("failure");
