@@ -26,13 +26,13 @@ void draw() {
 
  
  
- if (count == 0) {
+if (count == 0) {
    rød = #FA0000;
    grøn = 127 ;
    gul = 127; 
    rect = 0;
  } else if (count == 1) {
-   rød = 127 ;
+   rød = #FA0000 ;
    grøn = 127 ;
    rect = 0;
    gul = #F9FA00; }
@@ -41,7 +41,11 @@ void draw() {
      grøn = #52FA00;
      gul = 127;
      rect = 0;
-   } else if (count >2) {
+   } else if ( count == 3) {
+     rød = 127;
+     grøn = 127;
+     gul = #F9FA00;
+   } else if (count >3) {
      count = 0; 
    }
 }
