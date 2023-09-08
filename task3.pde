@@ -19,7 +19,7 @@ println("succes");
 int x = 13;
 int y = 3;
 int z = 21;
-if (x + y + z == 30){
+if (x + y + z == 30 && x!= 10 && x!= 20 && x!= 30 && y!= 10 && y!= 20 && y!= 30 && z!= 10 && z!= 20 && z! = 30){
   println("success!");
 } else {
   println("failure!");
